@@ -1,0 +1,129 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+nav {
+    display: flex;
+    margin-top: 20px;
+    position: static;
+}
+nav h1{
+font-size: 27px;
+font-weight: 700;
+margin-left: 258px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 38%;
+    /* border: 2px solid rgb(32, 18, 18); */
+    margin-left: 52px;
+    font-size: 27px;
+   
+
+}
+nav ul li{
+   
+    list-style-type: none;
+    /* margin-left: ; */
+}
+nav ul li a{
+    text-decoration: none;
+    color: #062a35;
+}
+nav .fa-search{
+    font-size: 20px;
+    margin: 11px;
+    margin-left: 40px;
+    
+}
+
+nav a{
+    font-size: 20px;
+    /* background-color: rgb(88, 85, 85); */
+    box-sizing: 20px;
+   
+}
+nav .signup{
+    margin-top: 10px;
+
+}
+nav .signup a{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #062a35;
+    color: #fdc339;
+    margin-left: 50px;
+    /* margin-top: 42px; */
+    /* text-decoration: none; */
+    padding: 14px 38px;
+    text-decoration: none;
+}
+nav .fa-bars{
+    font-size: 20px;
+    margin: 11px;
+    margin-left: 40px;
+}
+  .digital{
+    width: 719px;
+    height: 600px;
+    background-color: #fdc339;
+    /* border: 2px solid black; */
+    position: relative;
+    bottom: 62px;
+    z-index: -21;
+    padding: 40px 30px;
+}
+
+.digital h1{
+    width: 367px;
+    padding-top: 58px;
+    margin-left: 146px;
+    /* padding: 104px 134px; */
+    /* border: 2px solid black; */
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.digital p{
+    width: 607px;
+    margin: 30px;
+    padding-top: 23px;
+    padding-left: 116px;
+    /* border: 2px solid beige; */
+    /* color: black; */
+}
+.digital input{
+    height: 56px;
+    width: 483px;
+    padding: 29px 10px;
+    margin-top: -28px;
+    margin-left: 143px;
+}
+.digital input::placeholder{
+    font-size: 20px;
+}
+digital input .fa-search{
+    margin-left: 627px;
+    padding: 20px 30px;
+}
+.category h3{
+   color: #fdc339;
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+}
+.category h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.image{
+    background-image: url(/IMAGES/girl_image.webp);
+}
